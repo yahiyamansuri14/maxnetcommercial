@@ -1,0 +1,107 @@
+.subheading-text {
+    text-align: center;
+    display: block;
+    font-size: 25px;
+}
+
+.contact-form {
+    padding: 20px;
+}
+
+.form-field-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-field {
+    width: 45%;
+    height: 50px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.form-field-1 {
+    width: 95%;
+    height: 150px;
+    margin: 15px;
+    border-radius: 5px;
+    resize: none;
+}
+
+.form-field-1:focus {
+    outline: none;
+    color: #000;
+    border: 2px solid #000 ;
+}
+
+.form-field:focus {
+    outline: none;
+    color: #ffb400;
+    border: 2px solid #ffb400;
+}
+
+.contact-button {
+    background-color: #ffb400;
+    padding: 10px;
+    margin-left: 15px;
+    border: 1px solid #ffb400;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.company-moto-image-container {
+    padding: 30px;
+}
+
+.contact-data-container {
+    margin-top: 50px !important;
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+}
+
+.map-container {
+    padding: 20px;
+    width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    .subheading-text {
+        display: block;
+        text-align: center;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .contact-form {
+        padding: 10px;
+    }
+
+    .form-field-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form-field {
+        width: 100%;
+        height: 50px;
+        /* border: 1px solid black; */
+        border-radius: 5px;
+    }
+
+    .form-field-1 {
+        width: 99%;
+        height: 150px;
+        margin: 15px;
+        border-radius: 5px;
+        resize: none;
+    }
+
+    .contact-data-container {
+        /* margin: auto; */
+        margin-top: 0px;
+        padding: 20px;
+        width: 100%;
+    } 
+}

@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.tenant-container {
+    display: flex;
+    margin: auto;
+}
+
+.heading-text {
+    display: block;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: #ffb400;
+}
+
+.request-parent-container {
+    width: 30%;
+}
+
+.request-button-container {
+    padding: 20px;
+}
+
+.various-form-container {
+    height: auto;
+    width: 70%;
+}
+
+.tab1 {
+    padding: 20px;
+    margin: 20px;
+}
+
+.tabcontent {
+    padding: 20px;
+    height: auto;
+}
+
+.request-button {
+    line-height: 30px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 1px 10px 0 rgb(0 0 0 / 19%);
+}
+
+.request-button:hover {
+    line-height: 30px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 1px 10px 0 rgba(216, 200, 56, 0.19);
+    background-color: #ffb400;
+    color: white;
+}
+
+.heading {
+    text-align: cemter;
+    font-size: 30px;
+    color: #ffb400;
+}
+
+.form-field-tenant {
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.tenant-forms-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.tenant-request-text {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+
+.tenant-request-button {
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-color: #ffb400;
+    box-shadow: 0 1px 10px 0 rgb(0 0 0 / 19%);
+}
+
+@media screen and (max-width: 480px) {
+    .tenant-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .request-parent-container {
+        width: 100%;
+    }
+
+    .heading-text {
+        display: block;
+        text-align: center;
+        font-size: 25px;
+        padding: 20px;
+        margin-top: 10px;
+        letter-spacing: 3px;
+        font-weight: bold;
+        color: #ffb400;
+    }
+
+    .various-form-container {
+        height: auto;
+        width: 90%;
+    }
+
+    .form-field-tenant {
+        margin-left: 0px;
+    }
+
+    .tenant-request-text {
+        display: block;
+        font-size: 16px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+}

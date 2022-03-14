@@ -1,0 +1,55 @@
+.company-containt-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.heading-text{
+    margin-bottom: 20px;
+}
+
+.company-moto-container {
+    width: 50vw;
+    padding: 20px;
+}
+
+.company-moto-image-container {
+    width: 50vw;
+    padding: 20px;
+}
+
+.company-moto-text {
+    font-size: 16px;
+    text-justify: inter-word;
+}
+
+@media screen and (max-width: 480px) {
+    .company-containt-container {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .company-moto-container {
+        width: 100vw;
+        padding: 20px;
+    }
+
+    .company-moto-text {
+        font-size: 16px;
+        text-justify: inter-word;
+    }
+
+    .company-moto-image-container {
+        width: 100vw;
+        height: auto;
+        padding: 20px;
+    }
+}
+
+@media screen and(max-width: 768px) {
+    .company-containt-container {
+        flex-direction: column;
+    }
+}
+
