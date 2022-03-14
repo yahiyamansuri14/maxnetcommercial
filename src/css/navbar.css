@@ -107,6 +107,25 @@ input[type=checkbox] {
         background-repeat: no-repeat;
         background-size: cover;
     }
+    
+    .tenant-button-home {
+        display: block;
+        text-align: center;
+        background-color: #ffb400;
+        padding: 10px;
+        border: 1px solid #ffb400;
+        cursor: pointer;
+        color: white;
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .center-image-home {
+        object-fit: fill;
+        height: 100%;
+        width: 100%;
+    }
+    
 }
 
 @media screen and (max-width: 768px) {
