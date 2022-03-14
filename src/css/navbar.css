@@ -116,14 +116,14 @@ input[type=checkbox] {
         border: 1px solid #ffb400;
         cursor: pointer;
         color: white;
-        width: 100%;
+        width: 90%;
         font-size: 20px;
     }
     
     .center-image-home {
         object-fit: fill;
         height: 100%;
-        width: 100%;
+        width: 90%;
     }
     
 }
