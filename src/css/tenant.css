@@ -14,7 +14,8 @@
     text-align: center;
     font-size: 45px;
     font-weight: bold;
-    color: #ffb400;
+    /*color: #ffb400;*/
+    color: #103B1D;
 }
 
 .request-parent-container {
@@ -55,14 +56,16 @@
     margin: 10px;
     padding: 20px;
     box-shadow: 0 1px 10px 0 rgba(216, 200, 56, 0.19);
-    background-color: #ffb400;
+    /*background-color: #ffb400;*/
+    background-color: #103B1D;
     color: white;
 }
 
 .heading {
     text-align: cemter;
     font-size: 30px;
-    color: #ffb400;
+    /*color: #ffb400;*/
+    color: #103B1D;
 }
 
 .form-field-tenant {
@@ -91,7 +94,8 @@
     margin: 10px;
     padding: 10px;
     color: white;
-    background-color: #ffb400;
+    /*background-color: #ffb400;*/
+    background-color: #103B1D;
     box-shadow: 0 1px 10px 0 rgb(0 0 0 / 19%);
 }
 
@@ -113,7 +117,8 @@
         margin-top: 10px;
         letter-spacing: 3px;
         font-weight: bold;
-        color: #ffb400;
+        /*color: #ffb400;*/
+        color: #103B1D;
     }
 
     .various-form-container {
