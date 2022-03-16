@@ -37,7 +37,8 @@ header {
 }
 
 .menu > li > a:hover {
-    color: #ffb400;
+    /*color: #ffb400;*/
+    color: #103B1D;
 }
 
 .tenant-button {
