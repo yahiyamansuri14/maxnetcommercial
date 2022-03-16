@@ -37,14 +37,17 @@
 .form-field:focus {
     outline: none;
     color: #ffb400;
-    border: 2px solid #ffb400;
+    /*border: 2px solid #ffb400;*/
+    border: 2px solid #103B1D;
 }
 
 .contact-button {
-    background-color: #ffb400;
+    /*background-color: #ffb400;*/
+    background-color: #103B1D;
     padding: 10px;
     margin-left: 15px;
-    border: 1px solid #ffb400;
+    /*border: 1px solid #ffb400;*/
+    border: 1px solid #103B1D;
     border-radius: 5px;
     cursor: pointer;
     color: white;
